@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+input#search {
+    width: 30% !important;
+    display: inline;
+}
+
+input[type="submit"] {
+    font-size: 15px;
+    margin-left: 10px;
+    display:inline;
+}
+
+ul#ui-id-1 {
+    float: right;
+    display: inline !important;
+    width: 30% !important;
+    cursor: pointer !important;
+}
+
+.ui-autocomplete {
+    max-height: 100px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+  }
+  /* IE 6 doesn't support max-height
+   * we use height instead, but this forces the menu to always be this tall
+   */
+  * html .ui-autocomplete {
+    height: 100px;
+  }
