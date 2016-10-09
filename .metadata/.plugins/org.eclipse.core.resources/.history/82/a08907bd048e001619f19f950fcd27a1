@@ -1,0 +1,78 @@
+<jsp:include "header.jsp"/>
+<div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+       <li>
+           <a href = "Profile.html">Basic details</a>
+        </li>
+        <li>
+            <a href = "EmergencyContact.html">Emergency Contact</a>
+        </li>
+        <li>
+           <a href = "exceptionalities.html">Exceptionalities</a>
+        </li>
+        <li>
+            <a href="interests.html">Interests</a>
+        </li>
+    </ul>
+</div>
+
+<!-- /#sidebar-wrapper -->
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 ">
+            <form class="form-horizontal" style="padding-left:40%">
+                <fieldset>
+
+             <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="exceptionality">What kind of exceptionality do you have?</label>
+                        <div class="col-md-4">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Developmental Delay</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Gifted and Talented</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Hearing Loss</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Medical Condition</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Mental Illness/Mental Health</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Neurodevelopmental and Related Disorders</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Intellectual Disability</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Specific Learning Disorder</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value=""> Physical Disability</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Speech and/or Language Disorder</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Vision Loss</label>
+                            </div>
+                    </div>
+
+
+                        </div>
+                    </div>
+
+    </fieldset>
+            </form>
+        </div>
+
+    </div>
+</div>
+

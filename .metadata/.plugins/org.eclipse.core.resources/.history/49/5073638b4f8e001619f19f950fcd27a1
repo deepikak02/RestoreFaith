@@ -1,0 +1,64 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Add Participant</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
+    <!-- Bootstrap Core CSS -->
+    <!--     <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link href="../resources/styles/simple-sidebar.css" rel="stylesheet">
+    <![endif]-->
+    
+<script type="text/javascript">
+function goHome(){
+	alert("Thank for registering for this challenge.");
+	window.location="wall.html";
+}
+</script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="label label-success"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img height = 40px width="200px" src="../resources/assets/logo.png"></a>
+        </div>
+        <center>
+            <div> class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="wall.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li class="active"><a href="challenges.html">Challenges</a></li>
+					<li><a href="submission.html">Submissions</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                </ul>
+            </div>
+    </div>
+</nav>
+<div class = "col-md-4">
+<label class="col-md-4 control-label" for="participants">Based on your interests, we have found friends whom you might like to work with. Choose one them to be your teammate</label>
+<input type="radio" name="teammate" value="emily"/>Emily</br>
+<input type="radio" name="teammate" value="joseph"/>Joseph</br>
+<input type="radio" name="teammate" value="Chris"/>Chris</br></br>
+<div class = "col-md-4"><input type = "Button" value="Register" onclick="goHome()"></div>
+</body>
+</html>

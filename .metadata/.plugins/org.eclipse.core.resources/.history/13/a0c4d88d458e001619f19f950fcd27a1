@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Custom CSS -->
+    <link href="../resources/styles/simple-sidebar.css" rel="stylesheet">
+
+    <title>User profile form requirement</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
+    <!-- Bootstrap Core CSS -->
+    <!--     <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            padding-top: 70px;
+            /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+        }
+
+        .othertop{margin-top:10px;}
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<!-- Sidebar -->
+<div><jsp:include "header.jsp"/></div>
+<div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+       <li>
+           <a href = "Profile.html">Basic details</a>
+        </li>
+        <li>
+            <a href = "EmergencyContact.html">Emergency Contact</a>
+        </li>
+        <li>
+           <a href = "exceptionalities.html">Exceptionalities</a>
+        </li>
+        <li>
+            <a href="interests.html">Interests</a>
+        </li>
+    </ul>
+</div>
+
+<!-- /#sidebar-wrapper -->
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 ">
+            <form class="form-horizontal" style="padding-left:40%">
+                <fieldset>
+
+             <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="exceptionality">What kind of exceptionality do you have?</label>
+                        <div class="col-md-4">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Developmental Delay</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Gifted and Talented</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Hearing Loss</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Medical Condition</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Mental Illness/Mental Health</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Neurodevelopmental and Related Disorders</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Intellectual Disability</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Specific Learning Disorder</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value=""> Physical Disability</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Speech and/or Language Disorder</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Vision Loss</label>
+                            </div>
+                    </div>
+
+
+                        </div>
+                    </div>
+
+    </fieldset>
+            </form>
+        </div>
+
+    </div>
+</div>
+<!-- jQuery Version 1.11.1 -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+

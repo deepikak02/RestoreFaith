@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Welcome to Communitize</h2>
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#about-us">About Us</a></li>
+    <li><a data-toggle="tab" href="#profile">Profile</a></li>
+    <li><a data-toggle="tab" href="#stories">Shared Stories</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="about-us" class="tab-pane fade in active">
+      <h3>About Us</h3>
+      <p>An application to bridge the gap between different kinds of people.</p>
+    </div>
+    <div id="profile" class="tab-pane fade">
+      <h3>About Me</h3>
+      <form action="survey" name="survey-form" method = "POST">
+<table>
+<tr>Contact</tr>
+<tr><input type = "text" name="contact"></tr></br>
+<tr>Interests</tr>
+<tr><textarea rows=3 name="interests"></tr></br></textarea>
+<tr>Favorite subject</tr></br>
+<tr><input type="checkbox" name="subject" value="Math"/>Math</tr></br>
+<tr><input type="checkbox" name="subject" value="English"/>English</tr></br>
+<tr><input type="checkbox" name="subject" value="Science"/>Science</tr></br>
+<tr>Do you identify yourself with any of the following exceptionalities?</tr></br>
+<tr><input type="checkbox" name="disability" value="Autism"/>Math</tr></br>
+<tr><input type="checkbox" name="disability" value="Dyslexia"/>English</tr></br>
+<tr><input type="checkbox" name="disability" value="Other"/>Science</tr></br>
+</br>
+<tr>Do you want to make the above information public?</tr></br>
+<tr><input type = "radio" name="consent" value="0"/>Yes</tr></br>
+<tr><input type = "radio" name="consent" value="1"/>No</tr></br></br>
+<tr><input type="submit" value="Update"/>
+</table>
+</form>
+    </div>
+    <div id="stories" class="tab-pane fade">
+      <h3>Shared Stories</h3>
+      <p>Great Experience!</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+

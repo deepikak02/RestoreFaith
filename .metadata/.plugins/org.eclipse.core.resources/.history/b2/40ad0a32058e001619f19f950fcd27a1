@@ -1,0 +1,98 @@
+
+<div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <li>
+            <a href = "Profile.html">Basic details</a>
+        </li>
+        <li>
+            <a href = "EmergencyContact.html">Emergency Contact</a>
+        </li>
+        <li>
+            <a href = "exceptionalities.html">Exceptionalities</a>
+        </li>
+        <li>
+            <a href="interests.html">Interests</a>
+        </li>
+    </ul>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 ">
+            <form class="form-horizontal" style="padding-left:40%">
+                <fieldset>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="Name (Full name)">Name (Full name)</label>
+                        <div class="col-md-4">
+                            <div class="input-group">
+                                <div class="input-group-addon">
+                                    <i class="fa fa-user">
+                                    </i>
+                                </div>
+                                <input id="Name (Full name)" name="Name (Full name)" type="text" placeholder="Name (Full name)" class="form-control input-md">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="Relationship">Relationship</label>
+                        <div class="col-md-4">
+                            <div class="input-group">
+                                <div class="input-group-addon">
+                                    <i class="fa fa-user">
+                                    </i>
+                                </div>
+                                <input id="Relationship" name="Relationship" type="text" placeholder="Relationship" class="form-control input-md">
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="Phone number ">Phone number </label>
+                        <div class="col-md-4">
+                            <div class="input-group">
+                                <div class="input-group-addon">
+                                    <i class="fa fa-phone"></i>
+
+                                </div>
+                                <input id="Phone number " name="Phone number " type="text" placeholder="Primary Phone number " class="form-control input-md">
+
+                            </div>
+                            <div class="input-group othertop">
+                                <div class="input-group-addon">
+                                    <i class="fa fa-mobile fa-1x" style="font-size: 20px;"></i>
+
+                                </div>
+                                <input id="Phone number " name="Secondary Phone number " type="text" placeholder=" Secondary Phone number " class="form-control input-md">
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </fieldset>
+            </form>
+        </div>
+        <div class="col-md-2 hidden-xs">
+            <img src="http://websamplenow.com/30/userprofile/images/avatar.jpg" class="img-responsive img-thumbnail ">
+        </div>
+
+
+    </div>
+</div>
+

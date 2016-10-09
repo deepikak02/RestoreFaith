@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>User profile form requirement</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
+    <!-- Bootstrap Core CSS -->
+    <!--     <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom CSS -->
+    <link href="../resources/styles/simple-sidebar.css" rel="stylesheet">
+    <link href="../resources/styles/icons.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="label label-success"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img height = 40px width="200px" src="../resources/assets/logo.png"></a>
+        </div>
+        <center>
+            <div> class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="wall.html">Home</a></li>
+                    <li class="active"><a href="profile.html">Profile</a></li>
+                    <li><a href="challenges.html">Challenges</a></li>
+					<li><a href="submission.html">Submissions</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                </ul>
+            </div>
+    </div>
+</nav>
+
+<!-- Sidebar -->
+
+<div class="col-md-2">
+<div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <li>
+            <a href = "Profile.html">Basic details</a>
+        </li>
+        <li>
+            <a href = "EmergencyContact.html">Emergency Contact</a>
+        </li>
+        <li>
+            <a href = "exceptionalities.html">Exceptionalities</a>
+        </li>
+        <li>
+            <a href="interests.html">Interests</a>
+        </li>
+		<li>
+            <a href="history.html">History</a>
+        </li>
+    </ul>
+</div>
+</div>
+<div class="form-group col-md-6">
+    <label class="col-md-4 control-label" for="interests">What are you interested in?</label>
+    <table><tr><td><img class = "interesticon" src = "../resources/assets/CD.png"/></td>
+    <td><img class = "interesticon" src = "../resources/assets/Computer.png"/></td>
+    <td><img class = "interesticon" src = "../resources/assets/Movies.png"/></td></tr>
+    <tr><td><img class = "interesticon" src = "../resources/assets/Music.png"/></td>
+    <td><img class = "interesticon" src = "../resources/assets/Painting.png"/></td>
+    <td><img class = "interesticon" src = "../resources/assets/Photography.png"/></td></tr>
+    <tr><td><img class = "interesticon" src = "../resources/assets/PlayingInstrument.png"/></td>
+    <td><img class = "interesticon" src = "../resources/assets/Reading.png"/></td>
+    <td><img class = "interesticon" src = "../resources/assets/Writing.png"/></td></tr></table>
+	<center>   <button style="margin-top: 10px" type="button" class="btn btn-primary">Submit</button></center>
+</div>
+
+<!-- jQuery Version 1.11.1 -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>

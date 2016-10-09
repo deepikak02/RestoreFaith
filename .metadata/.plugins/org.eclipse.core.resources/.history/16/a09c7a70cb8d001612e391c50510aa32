@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>FindYourTeammate</title>
+</head>
+<body>
+<form action="survey" name="survey-form" method = "POST">
+<table>
+<tr>1. Do you identify yourself as socially shy?</tr>
+<tr><input type = "radio" name="social" value="0"/>Yes</tr>
+<tr><input type = "radio" name="social" value="1"/>No</tr>
+<tr>2. Do you face difficulties with logical thinking?</tr>
+<tr><input type = "radio" name="mental" value="0"/>Yes</tr>
+<tr><input type = "radio" name="mental" value="1"/>No</tr>
+</table>
+</form>
+</body>
+</html>
